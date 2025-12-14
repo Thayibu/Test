@@ -20,6 +20,7 @@ jobs:
 
       - name: Install dependencies
         run: |
+          python -m pip install --upgrade pip wheel setuptools
           pip install pillow pygments docutils
           pip install pandas openpyxl
           pip install kivy
