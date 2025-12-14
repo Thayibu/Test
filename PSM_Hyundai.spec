@@ -10,7 +10,7 @@ project_path = os.path.abspath(".")
 
 a = Analysis(
     ['main.py'],  
-    pathex=[project_path],
+    pathex=["."],
     binaries=safe_bins(angle.dep_bins) + safe_bins(sdl2.dep_bins) + safe_bins(glew.dep_bins),
     datas=[
         ('001.png', '.'),
