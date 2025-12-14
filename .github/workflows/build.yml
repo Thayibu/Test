@@ -30,7 +30,8 @@ jobs:
 
       - name: Build EXE with PyInstaller
         run: |
-          pyinstaller main.py
+          pyinstaller --name PSM_Hyundai main.py
+
       - name: List dist folder
         run: |
           dir dist
