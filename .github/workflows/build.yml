@@ -30,7 +30,7 @@ jobs:
 
       - name: Build EXE with PyInstaller
         run: |
-          pyinstaller --name PSM_Hyundai --OneFile --windowed --icon=icon.ico main.py
+          pyinstaller --name PSM_Hyundai --oneFile --windowed --icon=icon.ico main.py
       - name: List dist folder
         run: |
           dir dist
