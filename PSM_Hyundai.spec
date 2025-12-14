@@ -21,7 +21,7 @@ a = Analysis(
         ('frame.png', '.'),
         ('headlight_off.png', '.'),
         ('headlight_on.png', '.'),
-        ('icon_path', '.'),
+        #('icon_path', '.'),
         ('icon.png', '.'),
         ('KLK.jpg', '.'),
         ('Photo 1.png', '.'),
@@ -63,7 +63,7 @@ exe = EXE(
     strip=False,
     upx=True,
     console=False,
-    icon=icon_path
+    #icon=icon_path
 )
 
 coll = COLLECT(
